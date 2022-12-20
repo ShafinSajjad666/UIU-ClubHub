@@ -2,7 +2,6 @@
 
 $connect = mysqli_connect("localhost", "root", "", "uiu_clubhub") or die("Connection Failed");
 //include database_connect.php;
-    
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $id = $_POST['id'];
     
